@@ -15,7 +15,11 @@ void main() {
   double por2 = (p2 / t) * 100;
   double por3 = (p3 / t) * 100;
 
-  print("porcentaje invertido por la primera persona:$por1,%");
-  print("porcentaje invertido por la segunda persona:$por2,%");
-  print("porcentaje invertido por la tercera persona:$por3,%");
+  String re = por1.toStringAsFixed(2);
+  String res = por2.toStringAsFixed(2);
+  String resu = por3.toStringAsFixed(2);
+
+  print("porcentaje invertido por la primera persona:$re,%");
+  print("porcentaje invertido por la segunda persona:$res,%");
+  print("porcentaje invertido por la tercera persona:$resu,%");
 }

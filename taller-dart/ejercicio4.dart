@@ -10,5 +10,7 @@ void main() {
   print("monto a cobrar una carrera minutos?:");
   double m = double.parse(stdin.readLineSync()!);
   double t = 2000 * m;
+  double to = x + t;
   print("total a pagar por minutos a 2000:$t");
+  print("total a pagar :$to");
 }
